@@ -52,9 +52,6 @@ The analysis used R packages including:
 
 ## Visualizations
 
-The repository includes visualizations showing:
-## Visualizations
-
 The analysis generated visualizations to compare urinary metabolite levels between control and low-protein diet groups and to examine temporal patterns in taurine levels.
 
 ### Metabolite comparisons between dietary groups
