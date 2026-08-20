@@ -425,4 +425,25 @@ ggplot(data, aes(x = Diet, y = `urea`)) +
         plot.title = element_text(hjust = 0.5, size = 12, face = "bold"), 
         axis.title = element_text(size = 10), 
         axis.text = element_text(size = 8))
+## R Packages and Methods
 
+### R packages used
+
+- **readxl** – importing Excel-based metabolomics data
+- **tidyverse** – data manipulation and workflow
+- **dplyr** – data filtering, grouping and summarization
+- **ggplot2** – statistical visualization
+- **ggpubr** – publication-oriented visualization support
+- **rstatix** – statistical analysis support
+- **emmeans** – estimated marginal means and pairwise comparisons
+
+### Statistical methods
+
+The analysis included:
+
+- Exploratory inspection of the metabolomics dataset
+- Independent/unpaired t-tests for comparison of metabolite levels between dietary groups
+- One-way ANOVA for evaluating metabolite levels across sampling time points within dietary groups
+- Estimated marginal means and pairwise comparisons following ANOVA
+- Boxplot-based visualization with individual observations
+- Mean ± standard deviation visualization across sampling time points
