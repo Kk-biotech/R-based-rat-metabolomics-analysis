@@ -53,6 +53,37 @@ The analysis used R packages including:
 ## Visualizations
 
 The repository includes visualizations showing:
+## Visualizations
+
+The analysis generated visualizations to compare urinary metabolite levels between control and low-protein diet groups and to examine temporal patterns in taurine levels.
+
+### Metabolite comparisons between dietary groups
+
+#### Valine
+
+![Valine levels](figures/valine_levels.png)
+
+#### Tryptophan
+
+![Tryptophan levels](figures/tryptophan_levels.png)
+
+#### Urea
+
+![Urea levels](figures/urea_levels.png)
+
+#### Trimethylamine N-oxide (TMAO)
+
+![TMAO levels](figures/tmao_levels.png)
+
+### Taurine across sampling time points
+
+#### Control group
+
+![Taurine control time course](figures/taurine_control_timecourse.png)
+
+#### Low-protein diet group
+
+![Taurine low-protein diet time course](figures/taurine_low_protein_timecourse.png)
 
 - Metabolite distributions between control and low-protein diet groups
 - Valine levels
