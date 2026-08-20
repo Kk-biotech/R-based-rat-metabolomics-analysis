@@ -429,13 +429,13 @@ ggplot(data, aes(x = Diet, y = `urea`)) +
 
 ### R packages used
 
-- **readxl** – importing Excel-based metabolomics data
-- **tidyverse** – data manipulation and workflow
-- **dplyr** – data filtering, grouping and summarization
-- **ggplot2** – statistical visualization
-- **ggpubr** – publication-oriented visualization support
-- **rstatix** – statistical analysis support
-- **emmeans** – estimated marginal means and pairwise comparisons
+ readxl – importing Excel-based metabolomics data
+ tidyverse – data manipulation and workflow
+ dplyr – data filtering, grouping and summarization
+ ggplot2 – statistical visualization
+ ggpubr – publication-oriented visualization support
+ rstatix – statistical analysis support
+ emmeans– estimated marginal means and pairwise comparisons
 
 ### Statistical methods
 
@@ -447,3 +447,24 @@ The analysis included:
 - Estimated marginal means and pairwise comparisons following ANOVA
 - Boxplot-based visualization with individual observations
 - Mean ± standard deviation visualization across sampling time points
+
+## Analysis Workflow
+
+```text
+Raw metabolomics dataset
+        ↓
+Data import and inspection
+        ↓
+Dietary group classification
+        ↓
+Metabolite selection
+        ↓
+Statistical analysis
+   ├── Unpaired t-test
+   └── One-way ANOVA
+        ↓
+Pairwise comparisons using emmeans
+        ↓
+Data visualization
+        ↓
+Biological interpretation
